@@ -1,0 +1,15 @@
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+    grid-column: 2;
+    justify-self: center;
+}
+
+.options{
+    grid-column: 3;
+    justify-self: right;
+    align-self: center;
+}
